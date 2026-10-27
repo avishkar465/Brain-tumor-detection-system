@@ -1,0 +1,47 @@
+# ==========================================
+# Environments & Backups
+# ==========================================
+venv/
+venv_old/
+.venv/
+env/
+ENV/
+_cleanup_backup/
+
+# ==========================================
+# Python Bytecode & Cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Streamlit & Environment Variables
+# ==========================================
+.streamlit/secrets.toml
+.env
+.env.*
+
+# ==========================================
+# Local Patient Reports & Generated Tests
+# ==========================================
+Brain_Tumor_Report_*.pdf
+*.pdf
+test_heatmap.png
+test_overlay.png
+*.log
+
+# ==========================================
+# Operating System & IDE Artifacts
+# ==========================================
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

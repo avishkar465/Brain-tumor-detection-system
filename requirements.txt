@@ -1,0 +1,14 @@
+# Core Machine Learning & Deep Learning
+tensorflow>=2.15.0
+keras>=3.0.0
+
+# Web Application Framework
+streamlit>=1.30.0
+
+# Scientific Computing & Image Processing
+numpy>=1.24.0
+pillow>=10.0.0
+matplotlib>=3.8.0
+
+# PDF Report Generation
+reportlab>=4.0.0
